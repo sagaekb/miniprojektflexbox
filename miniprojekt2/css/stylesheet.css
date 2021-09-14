@@ -1,0 +1,69 @@
+
+ 
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5rem;
+  }
+
+
+h3{
+    font-size: 23px;
+    letter-spacing: 1.5rem;
+}
+  
+.bild {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0rem 5rem;
+    object-fit: cover;
+   
+}
+
+
+li {
+    list-style-type: none;
+}
+.text-1{
+    letter-spacing: 0.3rem;
+}
+
+.menyall{
+    background-color:#abd5ab;
+    padding: 2rem;
+}
+.meny{
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 4rem;
+    margin: 8rem 20rem;
+    font-size: 23px;
+}
+
+.holdingcontainer{
+    width: 100%;
+    display: flex;
+    background: #abd5ab;
+    box-sizing: border-box;
+}
+.internalcontainer1,.internalcontainer2,.internalcontainer3,.internalcontainer4,.internalcontainer5{
+    flex:1;
+    padding: 2rem;
+    font-size: 16px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-kontakt{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+.con1, .con2{
+    flex:1;
+    padding:  4rem;
+    background-color: #abd5ab;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
